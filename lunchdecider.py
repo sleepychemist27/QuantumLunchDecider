@@ -20,10 +20,7 @@ window.close()
 
 listofchoices = pd.read_fwf(values[0])
 lengthofchoices = len(listofchoices)
-gen_layout=[
-[sg.Text('Quantum mechanics say you will have:')],
-[sg.Text('for lunch')]
-] 
+
 def decider(randomnumber, lengthofchoices):
     
     decision = int(np.floor(randomnumber / np.floor(65535/lengthofchoices)))-1
