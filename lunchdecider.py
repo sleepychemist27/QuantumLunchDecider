@@ -14,7 +14,7 @@ layout = [
 ]
 
 
-window = sg.Window("Title", layout)
+window = sg.Window("Quantum Lunch Decider", layout)
 event, values = window.read()
 window.close()
 
